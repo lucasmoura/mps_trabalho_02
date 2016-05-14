@@ -92,21 +92,107 @@ descreve as atividades necessárias para a execução dessa etapa:
 
 \subsection*{Desenvolver funcionalidade}
 
-Esta etapa do processo visa realizar uma tarefa proposta.
+Esta etapa do processo visa realizar uma tarefa proposta. Apesar da abordagem de
+como abordar uma tarefa seja responsabilidade da dupla destinada a realizar tal
+tarefa, existem uma categorização informal de como tratar alguns tipos de
+tarefas:
 
-\section*{Optimum Solution}
-\lipsum[4]
-% to comment sections out, use the command \ifx and \fi. Use this technique when
-% writing your pre lab. For example, to comment something out I would do:
-%  \ifx
-%   \begin{itemize}
-%       \item item1
-%       \item item2
-%   \end{itemize}   
-%  \fi
+\begin{itemize}
+    \item \textbf{Funcionalidades para o SPB:} Quando uma funcionalidade deve
+        ser desenvolvida só para o contexto do SPB, a dupla responsável deve
+        fazer as alterações somente no fork do Noosfero para o SPB. Para este
+        tipo de tarefa, não é explicitamente necessário a interação da dupla com
+        os mantenedores do Noosfero, mas obviamente, tal interação não é
+        restrita.
+    \item \textbf{Funcionalidades para o Noosfero:} Quando uma funcionalidade
+        proposta pode empactar usuários do Noosfero que não estão só
+        relacionados ao contexto do SPB, tal funcionalidade ou modificação deve
+        ser feita no repositório principal do Noosfero. Para isso, é necessário
+        que a dupla se organize para interagir diretamente com os mantenedores
+        do Noosfero, pois tal interação ocorre normalmente de forma não
+        presencial.
+    \item \textbf{Correção de bugs:} Neste tipo de tarefa, normalmente tenta-se
+        alocar os responsáveis iniciais pela tarefa que gerou um bug. Caso isso
+        não seja possível, deve-se minimanete tentar o contato com a dupla
+        original e tentar nortear o que pode estar causando o bug, com o intuito
+        de poupar esforço inicial de encontrar onde está o bug, e sim focar em
+        consertar o problema.
+\end{itemize}
 
-\section*{Construction/Implementation}
-\lipsum[5]
+Apesar desses três tipos de tarefas principais, existem também tarefas
+relacionadas a documentação e tradução do Noosfero. Entretanto, tais tarefas
+seguem o mesmo fluxo de atividades que será detalhada a seguir, e não carecem de
+nenhuma explicação mais detalhada.
+
+Considerando os tipos de tarefas realizadas pela equipe, tornou-se necessário
+a descrição das seguintes atividades para esta etapa do processo:
+
+
+\begin{table}[h]
+    \resizebox{\textwidth}{!}{\begin{tabular}{|l|l|}
+		\hline
+        Atividade          & Função \\ \hline
+        Desenvolver solução    & \parbox{10cm}{Esta atividade está relacionada
+        ao trabalho efetivo para implementar uma solução para uma dada tarefa da
+        dupla.\\} \\ \hline
+        Atualizar tarefa  & \parbox{10cm}{Conforme o andamento da tarefa, a
+        dupla deve sempre atualizar como está o andamento das atividades, como
+        por exemplo, o que já está terminado e o que está sendo feito.\\}\\ \hline
+        Solicitar revisão     & \parbox{10cm}{Com a tarefa totalmente concluída,
+        a dupla deve pedir para que outros membros do time ou, dependendo do
+        tipo de tarefa sendo desenvolvida, um mantenedor do Noosfero, que revise
+        a solução desenvolvida. A dupla pode apontar que ela acha melhor para
+        revisar tal tarefa, mas tal apontamento não é fixo e pode ser alterado
+        pelas necessidades do time. Caso o revisor da tarefa encontre algum
+        problema na solução encontrada, a dupla deve voltar a atividde de
+        desenvolver solução e corrigir os problemas apontados.\\}\\ \hline
+        Relatar status da tarefa & \parbox{10cm}{Durante a execução da sprint, a
+        dupla deve relatar o andamento de sua tarefa. Tal relato não é feito só
+        para o time do Noosfero propriamente dito, mas sim para para todo o time
+        do SPB, visando que todos os membros estejam alinhados quanto ao
+        objetivo da sprint e dos projetos ao seu redor.\\} \\
+		\hline
+	\end{tabular}}
+    \caption{Atividades relacionadas a etapa de Desenvolver funcionalidades}
+    \label{tab:atividades_desenvolver}
+\end{table}
+
+\subsection*{Analisar resultados}
+
+Esta etapa do projeto acontece quando a sprint chega ao seu término. Dessa
+forma, esta etapa visa entender o que foi realizado na sprint, seu alguma tarefa
+na sprint não foi concluída e entender o que pode ser melhorado na próxima
+sprint.
+
+Dessa forma, esta etapa possui as seguintes atividades:
+
+\begin{table}[h]
+    \resizebox{\textwidth}{!}{\begin{tabular}{|l|l|}
+		\hline
+        Atividade          & Função \\ \hline
+        Realizar reunião de fim da sprint& \parbox{10cm}{Esta atividade acontece
+        ao término de uma sprint, onde ambas as tarefas encerradas e pendentes
+        são reportadas para todo o time. Além disso, nessa reunião também é
+        levantado os problemas encontrados durante a execução da sprint e o que
+        o time pode fazer para mitigar tais dificuldades no próximo ciclo de
+        desenvolvimento.\\} \\ \hline
+        Documentar sprint& \parbox{10cm}{Após a reunião de término, o time deve
+        documentar o que foi realizado na sprint. Isso é tudo realizado na wiki
+        do projeto, que dita o que foi feito no projeto e o que ainda precisa
+        ser feito.\\}\\ \hline
+        Atualizer tarefas& \parbox{10cm}{Dependendo da tarefa, a sua
+        documentação pode carecer de atualização ao término de uma sprint. Por
+        exemplo, caso o seu motivo de existir tenha sido alterado ou até mesmo
+        se seus critérios de aceitação forem alterados. Dessa forma, a dupla
+        responsável pela tarefa deve atualizar tais informações.\\}\\ \hline
+	\end{tabular}}
+    \caption{Atividades relacionadas a etapa de Desenvolver funcionalidades}
+    \label{tab:atividades_desenvolver}
+\end{table}
+
+\subsection*{Ferramentas}
+
+Ferramentas utilizadas
 
 \section*{Analysis \& Testing}
 \lipsum[6]
