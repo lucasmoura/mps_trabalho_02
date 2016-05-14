@@ -1,0 +1,132 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{lipsum} %This package just generates Lorem Ipsum filler text. 
+\usepackage{fullpage} % changes the margin
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\begin{document}
+%Header-Make sure you update this information!!!!
+\noindent
+\large\textbf{Melhoria de Processo de Software / Segundo trabalho}\\
+Lucas Albuquerque Medeiros de Moura \hfill 11/0015568 \\
+Luciano Prestes Cavalcanti \hfill ?
+
+\section*{Resumo do trabalho}
+Este trabalho visa explicitar o processo de desenvolvimento para a evolução do
+software Noosfero no contexto do Laboratório Avançado de Produção Pesquisa e
+Inovação em Software (LAPPIS).
+
+\section*{Introdução}
+
+O Noosfero pode ser descrito como plataforma web com o foco de permitir a
+customização de redes sociais, visando desde a criação de blogs a até mesmo
+agenda de eventos. Tal software é atualmente usado pela Universidade de São
+Paulo para gerencimento de algumas de suas disciplinas e até mesmo pelo SERPRO.
+
+No contexto do LAPPIS, o Noosfero é usado para prover uma rede social para o
+novo portal de software público. O intuito desse portal é provar uma plataforma
+única de gerenciamento de softwares livre do governo, visando desde prover um
+repositório d código fonte a até mesmo prover um meio para interação da
+comunidade de um dado software livre. O Noosfero, dessa forma, é responsável
+pela configuração desse ambiente de interação entre os membros de uma
+comunidade.
+
+Com isso em mente, o laboratório LAPPIS tem como motivação a criação de um
+processo que vise tanto a manutenção de um fork do Noosfero para o contexto do
+novo portal do software público e também estar alinhado e presente com o
+desenvolvimento da versão principal do Noosfero. Considerando que o LAPPIS
+baseia seu processo em técnicas propostas pela metodologia ágil, todo o processo
+de desenvolvimento é encapsulado em uma sprint de trabalho, que normalmente tem
+duração de duas semanas.
+
+Sendo assim, durante uma sprint, o processo de desenvolvimento usado segue as
+seguintes atividades:
+
+\begin{itemize}
+    \item Identificar funcionalidades
+    \item Desenvolver funcionalidades
+    \item Analisar resultados
+\end{itemize}
+
+O objetivo desse processo é então, basicamente, a criação de novas funcionalides
+para o Noosfero no contexto do software público de forma dinâmica e de rápida
+assimilação pelo time.
+
+Com o processo minimamente explicado, pode-se então explicar como esse documento
+será estruturado. Esse documento é composto por duas sessões, Desenvolvimento e Considerações
+finais. A sessão de Desenvolvimento é usado para o detalhamento do objetivo e das atividades de
+cada etapa do processo, além de explicar como tais atividades são detalhadas e
+quais ferramentas são usadas para o acompanhamento do processo.
+
+
+\section*{Desenvolvimento}
+
+Considerando as etapas levantadas na seção anterior, é necessário descrever
+melhor o motivo e as atividades relacionadas a cada uma delas. Esta seção visa
+então realizar tal papel, além de mostrar em linhas gerais quais as ferramentas
+e papéis usados para o gerenciamento do processo como um todo.
+
+\subsection*{Identificar Funcionalidades}
+
+Esta etapa do processo é usada para selecionar quais tarefas precisam ser
+realizadas dentro da sprint, levando em consideração a prioridade de cada uma
+das tarefas e a composição do time. Para realizar tal etapa, a tabela à seguir
+descreve as atividades necessárias para a execução dessa etapa:
+
+\begin{table}[h]
+    \resizebox{\textwidth}{!}{\begin{tabular}{|l|l|}
+		\hline
+        Atividade          & Função \\ \hline
+        Definir tarefas    & \parbox{10cm}{Definir quais são as atividades que precisam ser realizadas para a sprint, ou até mesmo, em algum momento do projeto.\\} \\ \hline
+        Priorizar tarefas  & \parbox{10cm}{Com as tarefas definidas, deve-se priorizar quais são as principais tarefas que devem ser desempanhadas na duração da sprint. Essa tarefa deve ser realizada em conjunto com todo o time relacionado ao Noosfero.\\}\\ \hline
+        Definir duplas     & \parbox{10cm}{Com as tarefas priorizadas, deve-se definir quais duplas devem ser responsáveis pelo desenvolvimento de cada tarefa.\\}\\ \hline
+        Documentar tarefas & \parbox{10cm}{Com as duplas definidas, cada dupla deve documentar suas tarefas e documentar qualquer subtarefa relacionada a mesma. Além disso, a dupla também deve ser responsável por definir o critério de aceitação de uma dada tarefa.\\} \\
+		\hline
+	\end{tabular}}
+    \caption{Atividades relacionadas a etapa de Identificar funcionalidades}
+    \label{tab:atividades_identificar}
+\end{table}
+
+\subsection*{Desenvolver funcionalidade}
+
+Esta etapa do processo visa realizar uma tarefa proposta.
+
+\section*{Optimum Solution}
+\lipsum[4]
+% to comment sections out, use the command \ifx and \fi. Use this technique when
+% writing your pre lab. For example, to comment something out I would do:
+%  \ifx
+%   \begin{itemize}
+%       \item item1
+%       \item item2
+%   \end{itemize}   
+%  \fi
+
+\section*{Construction/Implementation}
+\lipsum[5]
+
+\section*{Analysis \& Testing}
+\lipsum[6]
+
+\section*{Final Evaluation}
+\lipsum[7]
+
+\section*{Attachments}
+%Make sure to change these
+Lab Notes, HelloWorld.ic, FooBar.ic
+%\fi %comment me out
+
+\begin{thebibliography}{9}
+\bibitem{Robotics} Fred G. Martin \emph{Robotics Explorations: A Hands-On
+Introduction to Engineering}. New Jersey: Prentice Hall.
+\bibitem{Flueck}  Flueck, Alexander J. 2005. \emph{ECE 100}[online]. Chicago:
+Illinois Institute of Technology, Electrical and Computer Engineering
+Department, 2005 [cited 30
+August 2005]. Available from World Wide Web:
+(http://www.ece.iit.edu/~flueck/ece100).
+\end{thebibliography}
+
+\end{document}
